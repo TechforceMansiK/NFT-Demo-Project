@@ -1,0 +1,7 @@
+.paraDiv{
+    text-align:left;
+}
+.flexDiv{
+    display: flex;
+    align-items: center;
+}

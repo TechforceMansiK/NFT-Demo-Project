@@ -1,0 +1,40 @@
+{
+  "connect_to_wallet": "Mit Wallet verbinden",
+  "common": {
+    "explore": "erkunden"
+  },
+  "home_page": {
+    "slieder_heading": "Entdecke, sammle und verkaufe außergewöhnliche NFTs",
+    "slieder_subheading": "OpenSea ist der weltweit erste und größte NFT-Marktplatz",
+    "top_collections_heading": "Top-Sammlungen über 7 Tage",
+    "get_started": {
+      "heading": "Beginnen Sie mit der Erstellung und dem Verkauf Ihrer NFTs",
+      "set_up_your_wallet": {
+        "title": "Wallet einrichten",
+        "text": "Sobald Sie Ihr bevorzugtes Wallet eingerichtet haben, verbinden Sie es mit OpenSea, indem Sie auf das Wallet-Symbol in der oberen rechten Ecke klicken. Erfahren Sie mehr über die von uns unterstützten Wallets."
+      },
+      "create_your_collection": {
+        "title": "Erstellen Sie Ihre Sammlung",
+        "text": "Klicken Sie auf Meine Sammlungen und richten Sie Ihre Sammlung ein. Fügen Sie soziale Links, eine Beschreibung, Profil- und Bannerbilder hinzu und legen Sie eine sekundäre Verkaufsgebühr fest."
+      },
+      "add_your_nfts": {
+        "title": "Füge deine NFTs hinzu",
+        "text": "Laden Sie Ihre Arbeit hoch (Bild, Video, Audio oder 3D-Kunst), fügen Sie einen Titel und eine Beschreibung hinzu und passen Sie Ihre NFTs mit Eigenschaften, Statistiken und freischaltbaren Inhalten an."
+      },
+      "list_them_for_sale": {
+        "title": "Zum Verkauf anbieten",
+        "text": "Wählen Sie zwischen Auktionen, Festpreisangeboten und Angeboten mit fallendem Preis. Sie entscheiden, wie Sie Ihre NFTs verkaufen möchten, und wir helfen Ihnen beim Verkauf!"
+      }
+    }
+  },
+  "footer": {
+    "nft_marketplace": "NFT Marktplatz",
+    "explore": "erkunden",
+    "technologies": "Technologien",
+    "community": "Gemeinschaft",
+    "follow_us": "Folge uns"
+  },
+  "button": {
+    "create": "erstellen"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "connect_to_wallet": "Connect to Wallet",
+  "common": {
+    "explore": "Explore"
+  },
+  "home_page": {
+    "slieder_heading": "Discover, collect, and sell extraordinary NFTs",
+    "slieder_subheading": "TF-NFT-Marketplace is the world's first and largest NFT marketplace",
+    "top_collections_heading": "Top Collections over 7 days",
+    "get_started": {
+      "heading": "Get Started Creating & Selling Your NFTs",
+      "set_up_your_wallet": {
+        "title": "Set up your wallet",
+        "text": "Once you’ve set up your wallet of choice, connect it to TF-NFT-marketplace by clicking the wallet icon in the top right corner. Learn about the wallets we support."
+      },
+      "create_your_collection": {
+        "title": "Create your collection",
+        "text": "Click My Collections and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee."
+      },
+      "add_your_nfts": {
+        "title": "Add your NFTs",
+        "text": "Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats, and unlockable content."
+      },
+      "list_them_for_sale": {
+        "title": "List them for sale",
+        "text": "Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs, and we help you sell them!"
+      }
+    }
+  },
+  "footer": {
+    "nft_marketplace": "NFT MarketPlace",
+    "explore": "Explore",
+    "technologies": "Technologies",
+    "community": "Community",
+    "follow_us": "Follow Us"
+  },
+  "button": {
+    "create": "Create"
+  }
+}

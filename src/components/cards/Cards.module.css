@@ -1,0 +1,10 @@
+.hr{
+    height:10px !important;
+      border: 0;
+      box-shadow: "0 5px 5px 5px #d9d0d0 inset " !important;
+      margin: 0;
+}
+.cardContentDiv{
+    display:flex;
+    align-items:center;
+}

@@ -1,0 +1,9 @@
+.markdownLink {
+  color: rgb(32, 129, 226);
+  text-decoration: none;
+}
+
+.markdownLink:hover {
+  color: rgb(66, 160, 255);
+  text-decoration: none;
+}

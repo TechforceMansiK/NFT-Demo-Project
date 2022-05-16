@@ -1,0 +1,224 @@
+.inputPrefix {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(112, 122, 131);
+  display: flex;
+  padding-left: 12px;
+}
+
+.modelHeader {
+  padding: 24px;
+  border-bottom: 1px solid rgb(229, 232, 235);
+}
+
+.modelHeaderText {
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+  padding: 0px 24px;
+}
+
+.modelSection {
+  height: 100%;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.modelSectionHeading {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(112, 122, 131);
+}
+
+.tableHead {
+  border-bottom: none;
+}
+
+.tableHeadRow {
+  margin-bottom: 20px;
+}
+
+.tableHeadColumn {
+  padding-left: 50px;
+}
+
+.modelSection table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+.modelSection thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.modelSection tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.modelSection th {
+  text-align: start;
+  padding: 15px 5px;
+}
+
+.modelSection th:first-child {
+  padding-left: 50px;
+}
+
+.tableBody {
+  border-bottom: none;
+}
+
+.tableBodyColumn {
+  padding: 0px 0px 20px;
+}
+
+.tableBodyInput {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(229, 232, 235);
+  display: flex;
+  position: relative;
+}
+
+.tableInputLeftLabel {
+  border-bottom-left-radius: 10px;
+  border-right: 1px solid rgb(229, 232, 235);
+  border-top-left-radius: 10px;
+
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(112, 122, 131);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  background-color: rgb(251, 253, 255);
+}
+
+.tableBodyInputButton {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 0px;
+  padding: 0px 12px;
+  background: inherit;
+  cursor: pointer;
+}
+
+.tableBodyInputMain {
+  background-color: transparent;
+  border: none;
+  flex: 1 0 0%;
+  height: 48px;
+  outline: none;
+  padding: 0px 12px 0px 0px;
+  min-width: 0px;
+}
+
+.modelSectionAddMore {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(32, 129, 226);
+}
+
+.modelFooter {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 24px;
+  border-top: 1px solid rgb(229, 232, 235);
+}
+
+.modelFooterBtnSave {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: rgb(32, 129, 226);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(255, 255, 255);
+}
+
+.modelBtnClose {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 0px;
+  padding: 0px;
+  background: inherit;
+}
+
+.modelSectionNumberInput {
+  background-color: transparent;
+  border: none;
+  flex: 1 0 0%;
+  height: 48px;
+  outline: none;
+  padding: 0px 12px 0px 0px;
+  min-width: 0px;
+  width: 50px;
+}
+
+.modelSectionNumberValueInput {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.modelSectionTextValueInput {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.modelSectionNumberMaxInput {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.tableInputRightLabel {
+  border-bottom-right-radius: 10px;
+  border-left: 1px solid rgb(229, 232, 235);
+  border-top-right-radius: 10px;
+  max-width: none;
+
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(112, 122, 131);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  background-color: rgb(251, 253, 255);
+}

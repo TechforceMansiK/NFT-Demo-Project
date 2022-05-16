@@ -1,0 +1,374 @@
+.header {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: rgb(4, 17, 29);
+  font-family: sans-serif;
+  margin-top: 34px;
+}
+
+.subText {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(112, 122, 131);
+}
+
+.mediaLable {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(4, 17, 29);
+  margin-bottom: 0px;
+}
+
+.imageBox {
+  position: relative;
+  padding: 4px;
+  cursor: pointer;
+  border: 3px dashed rgb(204, 204, 204) !important;
+  border-radius: 10px;
+  height: 257px;
+  width: 350px;
+}
+
+.imageDiv {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.image {
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 400ms ease 0s;
+  width: 100%;
+}
+
+.imageicon {
+  z-index: 70;
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.removeImage {
+  position: absolute;
+  z-index: 71;
+  right: 12px;
+  top: 12px;
+}
+
+.fileInputGrid:hover {
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+  background-clip: content-box;
+}
+
+.inputMain {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(229, 232, 235);
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+
+.inputMain:focus-within {
+  box-shadow: 2px 2px 18px 1px #bdbec1, 0px 1px 1px 0px #c2c4c7,
+    0px 1px 3px 0px #f0f5f9;
+}
+
+.inputPrefix {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(112, 122, 131);
+  display: flex;
+  padding-left: 12px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  flex: 1 0 0%;
+  height: 48px;
+  outline: none;
+  padding: 0px 12px 0px 0px;
+  min-width: 0px;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none; /*remove the resize handle on the bottom right*/
+}
+
+.textArea {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  resize: vertical;
+  border: 1px solid rgb(229, 232, 235);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  min-height: 26px;
+}
+
+.textArea:focus {
+  border: 1px solid rgb(229, 232, 235);
+}
+
+.markdownLink {
+  color: rgb(32, 129, 226);
+  text-decoration: none;
+}
+
+.markdownLink:hover {
+  color: rgb(66, 160, 255);
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  background-color: rgb(4, 17, 29);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  outline: 0px;
+  transition-property: transform, visibility, opacity;
+  overflow-wrap: break-word;
+}
+.infoIcon {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(112, 122, 131);
+  margin-left: 4px;
+}
+
+.addButton {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(32, 129, 226);
+}
+
+.assetFormLabel {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+}
+
+.addButton:hover {
+  box-shadow: 0px 1px 3px 1px #bdbec1 !important;
+}
+
+.modelHeader {
+  padding: 24px;
+  border-bottom: 1px solid rgb(229, 232, 235);
+}
+
+.modelHeaderText {
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+  padding: 0px 24px;
+}
+
+.modelSection {
+  height: 100%;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.modelSectionHeading {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(112, 122, 131);
+}
+
+.tableHead {
+  border-bottom: none;
+}
+
+.tableHeadRow {
+  margin-bottom: 20px;
+}
+
+.tableHeadColumn {
+  padding-left: 50px;
+}
+
+.modelSection table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+.modelSection thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.modelSection tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.modelSection th {
+  text-align: start;
+  padding: 15px 5px;
+}
+
+.tableBody {
+  border-bottom: none;
+}
+
+.tableBodyColumn {
+  padding: 0px 0px 20px;
+}
+
+.tableBodyInput {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(229, 232, 235);
+  display: flex;
+  position: relative;
+}
+
+.tableInputLeftLabel {
+  border-bottom-left-radius: 10px;
+  border-right: 1px solid rgb(229, 232, 235);
+  border-top-left-radius: 10px;
+
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(112, 122, 131);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  background-color: rgb(251, 253, 255);
+}
+
+.tableBodyInputButton {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 0px;
+  padding: 0px 12px;
+  background: inherit;
+  cursor: pointer;
+}
+
+.tableBodyInputMain {
+  background-color: transparent;
+  border: none;
+  flex: 1 0 0%;
+  height: 48px;
+  outline: none;
+  padding: 0px 12px 0px 0px;
+  min-width: 0px;
+}
+
+.modelSectionAddMore {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(32, 129, 226);
+}
+
+.modelFooter {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 24px;
+  border-top: 1px solid rgb(229, 232, 235);
+}
+
+.modelFooterBtnSave {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: rgb(32, 129, 226);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(255, 255, 255);
+}
+
+.modelBtnClose {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 0px;
+  padding: 0px;
+  background: inherit;
+}
+
+.btnCreate {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background-color: rgb(32, 129, 226);
+  border: 1px solid rgb(32, 129, 226);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,241 @@
+.card{
+    height: 100%;
+    max-width: 500px;
+     width: auto !important;
+    height: auto !important;
+    border-radius: 2% !important;
+    margin-top: 20px !important;
+
+}
+.cardImg{
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    
+}
+.box{
+    border:"1px solid rgb(21, 178, 229)" !important;
+    width:"150px" !important;
+    margin:"5px"  !important;
+
+}
+.accordianDetailsDiv{
+    display: flex;
+    justify-content:space-between;
+    margin-top:8px;
+
+}
+
+.accordianDetailsTypo{
+    font-size:14px !important;
+    font-weight:550 !important;
+    text-align:right;
+}
+
+
+.accordianDetailsTypo1Color{
+    color: #2081e2;
+}
+.accordianDetailsTypo2Color{
+    color: rgb(112, 122, 131);
+}
+
+.accordianDetailsLeftTypo{
+    font-size: 15px;
+}
+
+.imageDisHeaderTypo{
+    font-size: 16px !important;
+     font-weight: 600 !important;
+     margin-left: 10px !important;
+
+}
+.ethereumIconDiv{
+    flex: 1;
+    font-size: 17px; 
+    margin-top: 3px;
+    margin-left: 10px;
+    color: #616161;
+}
+.imageInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    max-width: 560px;
+}
+.rightHeaderDiv{
+    margin-bottom: 0;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap:wrap;
+}
+.discountTypo{
+    font-size: 12px;
+    background: #f1385a;
+    padding: 3px 13px;
+    border-radius: 15px 6px 6px 15px;
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 210px;
+    position: relative;
+    
+}
+.dicountPrize{
+    font-size: 12px !important;
+    
+}
+.descTypo1{
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    margin-bottom:13px !important;
+}
+
+.imageAuthors{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+.imageAuthor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    height: 70px;
+}
+
+.imageAuthorLi{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imageAuthorLiTypo2{
+    flex: 1;
+    align-self:center;
+    margin-left:7px;  
+}
+.imageWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.imageHighPrice{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    position: relative;
+    padding-right: 20px;
+    border-right: 1px solid #e0e0e0;
+    padding-left: 20px
+}
+.imageLowPrice{
+    display: inline-flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+    padding-left: 20px;
+    
+}
+.imagePriceTypo{
+    font-size:14px;
+    color:#686869;
+    align-items:center;
+    height:30px;
+}
+.buttons{
+    display: flex;
+    flex: 1 0 100%;
+   width:100%;
+    flex-wrap: wrap;
+   
+}
+.btnDiv{
+    display: flex;
+    padding-right: 15px;
+    margin-top: 30px;
+   margin-left: 10px;
+
+}
+.btn1{
+    margin-top: 20px;
+    min-width: 160px;
+    padding: 5px 25px;
+    width: 197px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #c42513;
+    color:white;
+    height: 45px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: 2px solid #c42513;
+  
+}
+a{  
+    color: #c42513;
+}
+
+.tabsDiv{
+   
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabActive{
+    color:#c42513 !important;
+    font-weight:600 !important;
+}
+.tab:hover,.tab:focus{
+    color:#c42513;
+    font-weight:600;
+}
+.icon{
+    color: #c42513; 
+    font-size: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    bottom: 2px;
+}
+
+.collectionDivTypo{
+    flex: 1;
+    flex-direction: column;
+    margin: 16px;
+    cursor:pointer;
+}
+
+.ownersTabData{
+    background-color:white;
+    border-radius: 15px;
+    cursor:pointer;
+}

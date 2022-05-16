@@ -1,0 +1,36 @@
+.containedBtn {
+  width: 167px !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  padding: 12px 20px !important;
+}
+.outlinedBtn {
+  width: 167px !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  padding: 12px 20px !important;
+  background-color: white;
+}
+.backgroundContainer {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.blurBackground {
+  height: 548px;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-position: center center;
+  opacity: 0.3;
+  filter: blur(8px);
+  -webkit-mask: linear-gradient(rgb(255, 255, 255), transparent);
+}
+.cardTypo1{
+  flex: 1;
+  text-align:left;
+  margin-left: 15px;
+}
+.footerIcon{
+  align-self: center;
+  color: black !important;
+}
